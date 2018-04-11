@@ -1,8 +1,8 @@
 n=int(input())
-n1=input()
-c=[int(i) for i in set(n1.split(' '))]
+str_n=input()
+list1={int(element) for element in set(str_n.split(' '))}
 m=int(input())
-m1=input()
-d=[int(j) for j in set(m1.split(' '))]
-k=set(c).union(set(d))
-print(len(k))
+str_m=input()
+list2={int(element) for element in set(str_m.split(' '))}
+unionset=list1.union(list2)
+print(len(unionset))
