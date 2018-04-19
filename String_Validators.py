@@ -1,0 +1,6 @@
+word = raw_input()
+print any(c.isalnum() for c in word)
+print any(c.isalpha() for c in word)
+print any(c.isdigit() for c in word)
+print any(c.islower() for c in word)
+print any(c.isupper() for c in word)
